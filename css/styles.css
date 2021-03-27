@@ -416,23 +416,19 @@ img {
   margin-top: -30px;
 }
 
-.list-customers .item {
-  display: flex; 
+.list-customers .link {
+  display: flex;
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc(100%-180px) / 6;
-}
-
-.list-customers .link {
-  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   fill: #AFB1B8; 
+  margin-left: 30px;
+  margin-top: 30px;
+
+  flex-basis: calc(100%-180px) / 6;
 }
 
 .list-customers .link:hover,
@@ -440,8 +436,8 @@ img {
   fill: var(--accent-color);  
 }
 
-.list-customers .item:hover,
-.list-customers .item:focus {
+.list-customers .link:hover,
+.list-customers .link:focus {
   border-color: var(--accent-color);
 }
 
