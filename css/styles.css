@@ -150,11 +150,12 @@ img {
   margin-left: 50px;
 }
 
-
 .nav-link .link {
+  display: flex;
   color: var(--primary-text-color);
   font-weight: var(--medium-font-weight);
   line-height: 1.14;
+  align-items: center;
   
   padding-top: 32px;
   padding-bottom: 32px;
