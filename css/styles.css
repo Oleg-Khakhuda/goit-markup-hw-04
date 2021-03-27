@@ -591,6 +591,7 @@ img {
 }
 
 .site-projects .direction {
+  color: var(--primary-text-color);
   font-weight: var(--regular-font-weight);
   font-size: var(--secondary-font-size);
   line-height: 1.9;
@@ -610,7 +611,6 @@ img {
 
 .site-projects .link {
   background-color: var(--primary-write-color);
-
   width: calc((100%-60px) / 3);
   max-width: 370px;
   margin-right: 30px;
@@ -625,7 +625,7 @@ img {
   margin-bottom: 0;
 }
 
-.site-projects .link:hover,
+.site-projects .link:hover, 
 .site-projects .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
