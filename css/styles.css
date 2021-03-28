@@ -389,8 +389,7 @@ img {
 }
 
 .team-card .description {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px 30px 32px;
   justify-content: center;
 }
 
@@ -403,8 +402,12 @@ img {
   text-align: center;
   color: var(--title-text-color);
 
-  margin-top: 94px;
   margin-bottom: 50px;
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .list-customers {
@@ -426,8 +429,6 @@ img {
   fill: #AFB1B8; 
   margin-left: 30px;
   margin-top: 30px;
-
-  flex-basis: calc(100%-180px) / 6;
 }
 
 .list-customers .link:hover,
@@ -444,7 +445,8 @@ img {
 
 .footer {
   background-color: var(--background-section-color);
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-item {
@@ -491,8 +493,8 @@ img {
 
 .connection {
   display: inline-block;
-  padding-top: 72px;
-  padding-bottom: 100px;  
+  padding-top: 12px;
+  padding-bottom: 40px;  
 }
 
 .text-connection {
@@ -525,8 +527,6 @@ img {
 
 .footer-contacts {
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-contacts:not(:last-child) {
